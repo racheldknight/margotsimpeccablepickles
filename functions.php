@@ -19,6 +19,31 @@ function blank_widgets_init() {
         'after_title' => '</h4>'                        
         ));
 
+       
+
+      /*--- Testimonial Widget --- */
+    register_sidebar( array(
+        'name' => ('Testimonial Widget'),
+        'id' => 'testimonial-widget',
+        'description' => 'First widget for our testimonial', 
+        'before_widget' => '<div class="widget-testimonial">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+		
+		
+      /*--- Product Widget --- */
+    register_sidebar( array(
+        'name' => ('Product Widget'),
+        'id' => 'product-widget',
+        'description' => 'First widget for our products', 
+        'before_widget' => '<div class="widget-product">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+
 }        
         
 
