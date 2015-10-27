@@ -11,9 +11,9 @@ function blank_widgets_init() {
     /*--- Home Widget 1 --- */
     register_sidebar( array(
         'name' => ('Home Widget 1'),
-        'id' => 'home-widget',
+        'id' => 'home-widget1',
         'description' => 'First widget for our home', 
-        'before_widget' => '<div class="widget-home">',
+        'before_widget' => '<div class="widget-home1">',
         'after_widget' => '</div>',
         'before_title' => '<h4>',
         'after_title' => '</h4>'                        
@@ -21,9 +21,9 @@ function blank_widgets_init() {
     /*--- Home Widget 2 --- */
     register_sidebar( array(
         'name' => ('Home Widget 2'),
-        'id' => 'distribution-widget2',
+        'id' => 'home-widget2',
         'description' => 'First widget for our home', 
-        'before_widget' => '<div class="widget-home">',
+        'before_widget' => '<div class="widget-home2">',
         'after_widget' => '</div>',
         'before_title' => '<h4>',
         'after_title' => '</h4>'                        
@@ -33,7 +33,7 @@ function blank_widgets_init() {
         'name' => ('Home Widget 3'),
         'id' => 'home-widget3',
         'description' => 'First widget for our home', 
-        'before_widget' => '<div class="widget-home">',
+        'before_widget' => '<div class="widget-home3">',
         'after_widget' => '</div>',
         'before_title' => '<h4>',
         'after_title' => '</h4>'                        
@@ -43,12 +43,34 @@ function blank_widgets_init() {
         'name' => ('Home Widget 4'),
         'id' => 'home-widget4',
         'description' => 'First widget for our home', 
-        'before_widget' => '<div class="widget-home">',
+        'before_widget' => '<div class="widget-home4">',
         'after_widget' => '</div>',
         'before_title' => '<h4>',
         'after_title' => '</h4>'                        
         ));
 
+    /*--- Contact Form Widget2 --- */
+    register_sidebar( array(
+        'name' => ('Contact Form Widget 1'),
+        'id' => 'contact-widget1',
+        'description' => 'First widget for our contact', 
+        'before_widget' => '<div class="widget-contact1">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+ 
+    /*--- Contact Form Widget2 --- */
+    register_sidebar( array(
+        'name' => ('Contact Form Widget 2'),
+        'id' => 'contact-widget2',
+        'description' => 'First widget for our contact', 
+        'before_widget' => '<div class="widget-contact2">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+        
     /*--- Distribution Form Widget --- */
     register_sidebar( array(
         'name' => ('Distribution Form Widget'),
