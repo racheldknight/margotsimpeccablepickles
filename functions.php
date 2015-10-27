@@ -49,7 +49,7 @@ function blank_widgets_init() {
         'after_title' => '</h4>'                        
         ));
 
-    /*--- Contact Form Widget2 --- */
+    /*--- Contact Form Widget1 --- */
     register_sidebar( array(
         'name' => ('Contact Form Widget 1'),
         'id' => 'contact-widget1',
