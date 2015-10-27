@@ -4,7 +4,8 @@
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 <!-- BEGIN PAGE PHP -->
-		<?php
+		<div id="ltpannel">
+        <?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
         			get_template_part( 'content', 'bottompic' );
@@ -17,6 +18,7 @@
                 endwhile;
                
  ?> 
+        </div>
         <div id="rtpannel">
 
         <?php dynamic_sidebar('distribution-widget');  ?>

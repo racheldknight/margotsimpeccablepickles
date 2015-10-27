@@ -3,7 +3,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+		<div id="ltpannel">
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
@@ -20,6 +20,7 @@ get_header(); ?>
 		// End the loop.
 		endwhile;
 		?>
+        </div>
         <div id="rtpannel">
         <?php dynamic_sidebar( 'contact-widget1' ); ?>
 		<?php dynamic_sidebar( 'contact-widget2' ); ?>
