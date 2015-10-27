@@ -39,8 +39,11 @@ get_header(); ?>
 	<?php
                   endwhile;             
  ?> 
-		<?php dynamic_sidebar( 'product-widget' ); ?>
+	</div>
+    <div style="clear:both;">
+    <?php dynamic_sidebar( 'product-widget' ); ?>
+    </div>
 		</main><!-- .site-main -->
-	</div><!-- .content-area -->
+<!-- .content-area -->
 
 <?php get_footer(); ?>
