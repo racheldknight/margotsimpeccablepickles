@@ -13,7 +13,7 @@
 */
 
 *{
-color:#137f40;
+color:#353434;
 }
 
 body {
@@ -25,6 +25,11 @@ body {
     #efefef 9px,
     #efefef 16px
   );
+}
+
+h1, h2, h3, h4{
+	font-family: 'Delius Swash Caps', cursive;
+	color:#137f40;
 }
 
 .logo {
