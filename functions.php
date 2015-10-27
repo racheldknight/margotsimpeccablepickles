@@ -10,7 +10,7 @@ function blank_widgets_init() {
 
     /*--- Home Widget 1 --- */
     register_sidebar( array(
-        'name' => ('Home Widget'),
+        'name' => ('Home Widget 1'),
         'id' => 'home-widget',
         'description' => 'First widget for our home', 
         'before_widget' => '<div class="widget-home">',
@@ -20,7 +20,7 @@ function blank_widgets_init() {
         ));
     /*--- Home Widget 2 --- */
     register_sidebar( array(
-        'name' => ('Home Form Widget'),
+        'name' => ('Home Widget 2'),
         'id' => 'distribution-widget2',
         'description' => 'First widget for our home', 
         'before_widget' => '<div class="widget-home">',
@@ -30,7 +30,7 @@ function blank_widgets_init() {
         ));
     /*--- Home Widget 3 --- */
     register_sidebar( array(
-        'name' => ('Home Form Widget'),
+        'name' => ('Home Widget 3'),
         'id' => 'home-widget3',
         'description' => 'First widget for our home', 
         'before_widget' => '<div class="widget-home">',
@@ -40,7 +40,7 @@ function blank_widgets_init() {
         ));
     /*--- Home Widget 4 --- */
     register_sidebar( array(
-        'name' => ('Home Form Widget'),
+        'name' => ('Home Widget 4'),
         'id' => 'home-widget4',
         'description' => 'First widget for our home', 
         'before_widget' => '<div class="widget-home">',
