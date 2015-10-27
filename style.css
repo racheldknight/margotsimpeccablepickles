@@ -13,5 +13,50 @@
 */
 
 *{
-color:#606;
+color:#137f40;
 }
+
+body {
+    color: white;
+    background: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 9px,
+    #efefef 9px,
+    #efefef 16px
+  );
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu-main-menu-container {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+.menu-item a {
+    color: #353434;
+    font-size: 1.5em;
+}
+
+.menu-item a:hover {
+    color: #137F40;
+}
+
+.widget_synved_social_follow {
+    text-align: center;
+}
+
+.copyright {
+    font-family: 'Abel', sans-serif;
+    color: #DAD7D7;
+    font-size: .9em;
+    text-align: center;
+}
+
+
+

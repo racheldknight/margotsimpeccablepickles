@@ -8,6 +8,47 @@ function theme_enqueue_styles() {
 
 function blank_widgets_init() {
 
+    /*--- Home Widget 1 --- */
+    register_sidebar( array(
+        'name' => ('Home Widget'),
+        'id' => 'home-widget',
+        'description' => 'First widget for our home', 
+        'before_widget' => '<div class="widget-home">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+    /*--- Home Widget 2 --- */
+    register_sidebar( array(
+        'name' => ('Home Form Widget'),
+        'id' => 'distribution-widget2',
+        'description' => 'First widget for our home', 
+        'before_widget' => '<div class="widget-home">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+    /*--- Home Widget 3 --- */
+    register_sidebar( array(
+        'name' => ('Home Form Widget'),
+        'id' => 'home-widget3',
+        'description' => 'First widget for our home', 
+        'before_widget' => '<div class="widget-home">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+    /*--- Home Widget 4 --- */
+    register_sidebar( array(
+        'name' => ('Home Form Widget'),
+        'id' => 'home-widget4',
+        'description' => 'First widget for our home', 
+        'before_widget' => '<div class="widget-home">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+
     /*--- Distribution Form Widget --- */
     register_sidebar( array(
         'name' => ('Distribution Form Widget'),
