@@ -31,7 +31,9 @@ get_header(); ?>
 		// End the loop.
 		endwhile;
 		?>
+        <div id="rtpannel">
 		<?php dynamic_sidebar( 'testimonial-widget' ); ?>
+        </div>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 

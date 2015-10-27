@@ -15,8 +15,12 @@
           
 
                 endwhile;
-                dynamic_sidebar('distribution-widget'); 
- ?>
+               
+ ?> 
+        <div id="rtpannel">
+
+        <?php dynamic_sidebar('distribution-widget');  ?>
+        </div>
 <!-- END PAGE PHP -->
 
 		</main><!-- .site-main -->

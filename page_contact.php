@@ -20,9 +20,10 @@ get_header(); ?>
 		// End the loop.
 		endwhile;
 		?>
-        
+        <div id="rtpannel">
         <?php dynamic_sidebar( 'contact-widget1' ); ?>
 		<?php dynamic_sidebar( 'contact-widget2' ); ?>
+        </div>
 
 
 		</main><!-- .site-main -->
