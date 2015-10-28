@@ -110,6 +110,10 @@ input[type="submit"]:focus {
     padding-top: 20px;
 }
 
+.post-thumbnail img{
+	border: 1px solid #DAD7D7;
+}
+
 /*Distribution Widget*/
 .widget-distribution{
 	background-color:#FFFFFF;
