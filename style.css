@@ -154,6 +154,26 @@ input[type="submit"]:focus {
 	padding:5%;
 }
 
+/*Testimonial Widget*/
+.widget-testimonial .tggr-author-username, .widget-testimonial #tggr-media-item-container .tggr-actions a span, .widget-testimonial a [class^="icon-"], .widget-testimonial a [class*=" icon-"]{
+	color:#137f40;
+}
+
+.widget-testimonial .textwidget a{
+	border:none;
+}
+
+.widget-testimonial .tggr-timestamp{
+	color:#DAD7D7;
+}
+
+.widget-testimonial .tggr-media-item{
+	border: 1px solid #84cba3;
+}
+.widget-testimonial .tggr-source-logo {
+	-webkit-filter: hue-rotate(300deg);
+}
+
 /*Contact Page*/
 .widget-contact1 {
 	background-color:#FFFFFF;
