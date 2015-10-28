@@ -125,6 +125,28 @@ input[type="submit"]:focus {
 	-webkit-filter: hue-rotate(300deg);
 }
 
+/*Testimonial*/
+
+.quotemarkl{
+	color:#137f40;
+	font-family: 'Delius Swash Caps', cursive;
+	font-size:2em;
+}
+
+.quotemarkr{
+	color:#137f40;
+	font-family: 'Delius Swash Caps', cursive;
+	font-size:2em;
+	text-align:right;
+	float:right;
+}
+
+.quote{
+	color:#b5b5b5;
+	font-size:1.5em;
+	text-align:justify;
+}
+
 /*Distribution Widget*/
 .widget-distribution{
 	background-color:#FFFFFF;
