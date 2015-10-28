@@ -63,6 +63,10 @@ h1, h2, h3, h4{
     text-align: center;
 }
 
+.entry-content{
+    font-family: 'Abel', sans-serif;
+}
+
 #ltpannel{
 	font-family: 'Abel', sans-serif;
     margin-bottom: 3em;
