@@ -67,12 +67,15 @@ h1, h2, h3, h4{
 	float:left;
 	width:47.5%;
 	margin-right:2.5%;
+	font-family: 'Abel', sans-serif;
+	
 }
 
 #rtpannel{
 	float:right;
 	width:47.5%;
 	margin-left:2.5%;
+	font-family: 'Abel', sans-serif;
 }
 
 button,
@@ -101,3 +104,17 @@ input[type="reset"]:focus,
 input[type="submit"]:focus {
     background-color: #353434;
 }
+
+/*Contact Page*/
+#rightAddress {
+	background-color:#FFFFFF;
+	width:100%;
+	padding:5% 5% 5% 25%;
+	border: 1px solid #84cba3;
+	line-height:18px;
+	}
+	
+#rightMap {
+	margin-top:50px;
+}
+
