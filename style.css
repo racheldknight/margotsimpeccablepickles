@@ -101,3 +101,19 @@ input[type="reset"]:focus,
 input[type="submit"]:focus {
     background-color: #353434;
 }
+
+
+/*Contact Page*/
+.widget-contact1 {
+	background-color:#FFFFFF;
+	width:100%;
+	padding:5% 5% 5% 25%;
+	border: 1px solid #84cba3;
+	line-height:18px;
+	}
+	
+.widget-contact2 {
+	margin-top:50px;
+	border: 1px solid #84cba3;
+}
+
