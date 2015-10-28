@@ -204,3 +204,55 @@ input[type="submit"]:focus {
 		width:40%;
 	}
 }
+/**
+ * 16.4 Desktop Small 955px
+ */
+
+@media screen and (min-width: 59.6875em) {
+    body:before {
+        height: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20%;
+        z-index: 0; /* Fixes flashing bug with scrolling on Safari */
+    }
+
+    .site {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .sidebar {
+        width: 20%;
+    }
+
+    .site-main {
+        padding: 4% 0;
+    }
+
+    .site-content {
+        margin-left: 20%;
+		margin-right:5%;
+        width: 75%;
+    }
+	.site-header{
+		margin-top:8%;
+	}
+	
+	.logo{
+		width:100%;
+	}
+#ltpannel{
+	float:left;
+	width:47.5%;
+	margin-right:2.5%;
+	margin-bottom:0;
+}
+
+#rtpannel{
+	float:right;
+	width:47.5%;
+	margin-left:2.5%;
+}
