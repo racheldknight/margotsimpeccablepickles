@@ -27,8 +27,13 @@ get_header(); ?>
 		?>
         </div>
         <div id="rtpannel">
+        <div id="rightAddress">
         <?php dynamic_sidebar( 'contact-widget1' ); ?>
+        </div>
+        
+        <div id="rightMap">
 		<?php dynamic_sidebar( 'contact-widget2' ); ?>
+        </div>
         </div>
 
 
