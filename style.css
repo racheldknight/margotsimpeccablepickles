@@ -101,6 +101,14 @@ input[type="reset"]:focus,
 input[type="submit"]:focus {
     background-color: #353434;
 }
+.hentry, .page-header, .page-content {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
+	border: 1px solid #84cba3;
+    }
+
+.hentry, .hentry.has-post-thumbnail {
+    padding-top: 20px;
+}
 
 /*Distribution Widget*/
 .widget-distribution{
