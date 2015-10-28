@@ -64,15 +64,12 @@ h1, h2, h3, h4{
 }
 
 #ltpannel{
-	float:left;
-	width:47.5%;
-	margin-right:2.5%;
-}
+	font-family: 'Abel', sans-serif;
+    margin-bottom: 3em;
+	}
 
 #rtpannel{
-	float:right;
-	width:47.5%;
-	margin-left:2.5%;
+	font-family: 'Abel', sans-serif;
 }
 
 button,
