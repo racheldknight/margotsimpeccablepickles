@@ -40,9 +40,9 @@ get_header(); ?>
                   endwhile;             
  ?> 
 	</div>
-    <div style="clear:both;">
+    <div style="clear:both"></div>
     <?php dynamic_sidebar( 'product-widget' ); ?>
-    </div>
+    
 		</main><!-- .site-main -->
 <!-- .content-area -->
 
