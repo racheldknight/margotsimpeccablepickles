@@ -117,3 +117,11 @@ input[type="submit"]:focus {
 	border: 1px solid #84cba3;
 }
 
+/*Products Widget*/
+.widget-product{
+	background-color:#FFFFFF;
+	padding:15px;
+	border: 1px solid #84cba3;
+	margin:25px auto 0 auto;
+	width:70%;
+}
