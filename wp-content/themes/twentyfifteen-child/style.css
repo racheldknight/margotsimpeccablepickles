@@ -1,0 +1,280 @@
+/*
+ Theme Name:   Pickles
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Pixel Media
+ Author URI:   http://example.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+*{
+color:#353434;
+}
+
+body {
+    color: white;
+    background: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 9px,
+    #efefef 9px,
+    #efefef 16px
+  );
+}
+
+h1, h2, h3, h4{
+	font-family: 'Delius Swash Caps', cursive;
+	color:#137f40;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu-main-menu-container {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+.menu-item a {
+    color: #353434;
+    font-size: 1.5em;
+}
+
+.menu-item a:hover {
+    color: #137F40;
+}
+
+.widget_synved_social_follow {
+    text-align: center;
+}
+
+.copyright {
+    font-family: 'Abel', sans-serif;
+    color: #DAD7D7;
+    font-size: .9em;
+    text-align: center;
+}
+
+.entry-content{
+    font-family: 'Abel', sans-serif;
+}
+
+#ltpannel{
+	font-family: 'Abel', sans-serif;
+    margin-bottom: 3em;
+	}
+
+#rtpannel{
+	font-family: 'Abel', sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+    background-color: #e0f2e8;
+    font-family: 'Abel', sans-serif;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    background-color: #137f40;
+    font-family: 'Abel', sans-serif;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    background-color: #353434;
+}
+.hentry, .page-header, .page-content {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
+	border: 1px solid #84cba3;
+    }
+
+.hentry, .hentry.has-post-thumbnail {
+    padding-top: 20px;
+}
+
+.post-thumbnail img{
+	border: 1px solid #DAD7D7;
+}
+
+/*Social Media Icons*/
+/*FB*/
+.widget_synved_social_follow a.synved-social-button.synved-social-button-follow.synved-social-size-48.synved-social-resolution-single.synved-social-provider-facebook.nolightbox{
+	-webkit-filter: hue-rotate(260deg) brightness(1.5);
+}
+
+/*Twitter*/
+.widget_synved_social_follow a.synved-social-button.synved-social-button-follow.synved-social-size-48.synved-social-resolution-single.synved-social-provider-twitter.nolightbox{
+	-webkit-filter: hue-rotate(300deg);
+}
+
+/*Testimonial*/
+
+.quotemarkl{
+	color:#137f40;
+	font-family: 'Delius Swash Caps', cursive;
+	font-size:2em;
+}
+
+.quotemarkr{
+	color:#137f40;
+	font-family: 'Delius Swash Caps', cursive;
+	font-size:2em;
+	text-align:right;
+	float:right;
+}
+
+.quote{
+	color:#b5b5b5;
+	font-size:1.5em;
+	text-align:justify;
+}
+
+/*Distribution Widget*/
+.widget-distribution{
+	background-color:#FFFFFF;
+	border: 1px solid #84cba3;
+	padding:5%;
+}
+
+/*Testimonial Widget*/
+.widget-testimonial .tggr-author-username, .widget-testimonial #tggr-media-item-container .tggr-actions a span, .widget-testimonial a [class^="icon-"], .widget-testimonial a [class*=" icon-"]{
+	color:#137f40;
+}
+
+.widget-testimonial .textwidget a{
+	border:none;
+}
+
+.widget-testimonial .tggr-timestamp{
+	color:#DAD7D7;
+}
+
+.widget-testimonial .tggr-media-item{
+	border: 1px solid #84cba3;
+}
+.widget-testimonial .tggr-source-logo {
+	-webkit-filter: hue-rotate(300deg);
+}
+
+/*Contact Page*/
+.widget-contact1 {
+	background-color:#FFFFFF;
+	width:100%;
+	padding:5% 5% 5% 25%;
+	border: 1px solid #84cba3;
+	line-height:18px;
+	}
+	
+.widget-contact2 {
+	margin-top:50px;
+	border: 1px solid #84cba3;
+}
+
+
+
+/*404 Page*/
+
+.widget-error-page{
+	font-family: 'Abel', sans-serif;
+	font-size:24px;
+	color: #84cba3;
+	line-height:26px;
+}
+
+.smileFace {
+	font-size: 36px;
+	color:#137f40;
+}
+	
+
+
+/*Products Widget*/
+.widget-product{
+	background-color:#FFFFFF;
+	padding:15px;
+	border: 1px solid #84cba3;
+	margin:25px auto 0 auto;
+	width:70%;
+}
+
+/**
+ * logo at min-width 516px
+ */
+
+@media screen and (min-width: 516px) {
+	.logo{
+		width:40%;
+	}
+}
+/**
+ * 16.4 Desktop Small 955px
+ */
+
+@media screen and (min-width: 59.6875em) {
+    body:before {
+        height: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20%;
+        z-index: 0; /* Fixes flashing bug with scrolling on Safari */
+    }
+
+    .site {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .sidebar {
+        width: 20%;
+    }
+
+    .site-main {
+        padding: 4% 0;
+    }
+
+    .site-content {
+        margin-left: 20%;
+		margin-right:5%;
+        width: 75%;
+    }
+	.site-header{
+		margin-top:8%;
+	}
+	
+	.logo{
+		width:100%;
+	}
+#ltpannel{
+	float:left;
+	width:47.5%;
+	margin-right:2.5%;
+	margin-bottom:0;
+}
+
+#rtpannel{
+	float:right;
+	width:47.5%;
+	margin-left:2.5%;
+}
