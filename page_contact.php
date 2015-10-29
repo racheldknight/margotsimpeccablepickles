@@ -6,11 +6,14 @@ get_header(); ?>
 
 		<?php
 		// Start the loop.
-		while ( have_posts() ) : the_post();
+		while ( have_posts() ) : the_post(); ?>
 
+		<div class="headerimg">
+		<?php
 		// Post thumbnail.
 		twentyfifteen_post_thumbnail();
-	?>
+		?>
+		</div>
 		<div id="ltpannel">
 			<?php
 			// Include the page content template.
@@ -27,13 +30,8 @@ get_header(); ?>
 		?>
         </div>
         <div id="rtpannel">
-        <div id="rightAddress">
         <?php dynamic_sidebar( 'contact-widget1' ); ?>
-        </div>
-        
-        <div id="rightMap">
-		<?php dynamic_sidebar( 'contact-widget2' ); ?>
-        </div>
+        <?php dynamic_sidebar( 'contact-widget2' ); ?>
         </div>
 
 
