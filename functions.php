@@ -106,6 +106,21 @@ function blank_widgets_init() {
         'before_title' => '<h4>',
         'after_title' => '</h4>'                        
         ));
+		
+		
+		/*--- 404 Widget --- */
+    register_sidebar( array(
+        'name' => ('Error Page Widget'),
+        'id' => 'error-page-widget',
+        'description' => 'Widget for error page', 
+        'before_widget' => '<div class="widget-error-page">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'                        
+        ));
+		
+		
+		
 
 }        
         
