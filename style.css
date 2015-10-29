@@ -167,8 +167,13 @@ input[type="submit"]:focus {
 	color:#137f40;
 }
 
-.widget-testimonial .textwidget a{
+.textwidget a{
 	border:none;
+	color:#137f40;
+}
+.textwidget a:hover, .textwidget a:focus{
+	border-bottom: 1px solid #137f40;
+	color:#DAD7D7;
 }
 
 .widget-testimonial .tggr-timestamp{
