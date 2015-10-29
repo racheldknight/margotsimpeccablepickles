@@ -116,6 +116,12 @@ input[type="submit"]:focus {
 	border: 1px solid #DAD7D7;
 }
 
+
+.headerimg img.attachment-post-thumbnail.wp-post-image{
+	width:83%;
+	margin:0 8.333%;
+}
+
 /*Social Media Icons*/
 /*FB*/
 .widget_synved_social_follow a.synved-social-button.synved-social-button-follow.synved-social-size-48.synved-social-resolution-single.synved-social-provider-facebook.nolightbox{

@@ -9,10 +9,12 @@
 ?>
 
 <div id="post-<?php the_ID(); ?>" >
+	<div class="headerimg">
 	<?php
 		// Post thumbnail.
 		twentyfifteen_post_thumbnail();
 	?>
+	</div>
 <article <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
