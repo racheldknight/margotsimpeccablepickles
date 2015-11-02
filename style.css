@@ -247,6 +247,11 @@ input[type="submit"]:focus {
  * 16.4 Desktop Small 955px
  */
 
+ @media screen and (min-width: 46.25em) {
+    .secondary-toggle, .secondary-toggle:before {
+        width: 100px;
+    }
+
 @media screen and (min-width: 59.6875em) {
     body:before {
         height: 100%;
@@ -297,9 +302,3 @@ input[type="submit"]:focus {
 	width:47.5%;
 	margin:0 0 0 2.5%;
 }
-
-@media screen and (min-width: 46.25em) {
-    .secondary-toggle {
-        width: 100px;
-    }
-    }
