@@ -27,6 +27,10 @@ body {
   );
 }
 
+html {
+    margin-top: 0px;
+}
+
 h1, h2, h3, h4{
 	font-family: 'Delius Swash Caps', cursive;
 	color:#137f40;
@@ -293,3 +297,9 @@ input[type="submit"]:focus {
 	width:47.5%;
 	margin:0 0 0 2.5%;
 }
+
+@media screen and (min-width: 46.25em) {
+    .secondary-toggle {
+        width: 100px;
+    }
+    }
