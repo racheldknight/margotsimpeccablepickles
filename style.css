@@ -83,7 +83,8 @@ h1, h2, h3, h4{
 	margin:0 7.6923%;
 }
 
-#ltpannel img, #rtpannel img {
+.widget-home1, .widget-home2, .widget-home3, .widget-home4{
+	text-align:center;
     margin-bottom: 20px;
 }
 
@@ -247,6 +248,7 @@ input[type="submit"]:focus {
 	.logo{
 		width:40%;
 	}
+
 }
 /**
  * 16.4 Desktop Small 955px
@@ -267,6 +269,7 @@ input[type="submit"]:focus {
         width: 20%;
         z-index: 0; /* Fixes flashing bug with scrolling on Safari */
     }
+
 
     .site {
         margin: 0 auto;
@@ -295,16 +298,19 @@ input[type="submit"]:focus {
 	.logo{
 		width:100%;
 	}
-#ltpannel{
-	float:left;
-	width:47.5%;
-	margin-right:2.5%;
-	margin-bottom:0;
-    margin:0 0 0 2.5%;
-}
+	#ltpannel{
+		float:left;
+		width:47.5%;
+		margin-right:2.5%;
+		margin-bottom:0;
+		margin:0 0 0 2.5%;
+	}
 
-#rtpannel{
-	float:right;
-	width:47.5%;
-	margin:0 0 0 2.5%;
-}
+	#rtpannel{
+		float:right;
+		width:47.5%;
+		margin:0 0 0 2.5%;
+	}
+	.widget-home1, .widget-home2, .widget-home3, .widget-home4{
+		text-align:left;
+	}
