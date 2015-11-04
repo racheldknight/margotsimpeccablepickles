@@ -86,30 +86,22 @@ h1, h2, h3, h4{
 .widget-home1, .widget-home2, .widget-home3, .widget-home4{
 	text-align:center;
     margin-bottom: 20px;
-    height: 350px;
-    position: relative;
 }
 
-.widget-home1 button, .widget-home2 button {
-    position:absolute;
-    top:150px;
-    left:155px;
+.widget-home1 button, .widget-home2 button, .widget-home3 button, .widget-home4 button {
     display: none;
 }
 
-.widget-home3 button, .widget-home4 button {
-    position:absolute;
-    top:150px;
-    left:110px;
-    display: none;
-}
-
-.widget-home1:hover img, .widget-home2:hover img, .widget-home3:hover img, .widget-home4:hover img {
+/*.widget-home1:hover img, .widget-home2:hover img, .widget-home3:hover img, .widget-home4:hover img {
     opacity: .8;
 }
-
+*/
 .widget-home1:hover button, .widget-home2:hover button, .widget-home3:hover button, .widget-home4:hover button {
-    display: block;
+	display: block;
+	text-align:center;
+	margin: -150px auto 100px auto;
+	position:relative;
+	height:50px;
 }
 
 button,
@@ -334,7 +326,9 @@ input[type="submit"]:focus {
 		width:47.5%;
 		margin:0 0 0 2.5%;
 	}
-	.widget-home3, .widget-home4{
+	.widget-home3, .widget-home4 {
 		text-align:left;
 	}
-=
+	.widget-home3:hover button, .widget-home4:hover button{
+	margin: -150px auto 100px 120px;
+	}
