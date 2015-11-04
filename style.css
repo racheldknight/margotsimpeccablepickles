@@ -88,20 +88,30 @@ h1, h2, h3, h4{
     margin-bottom: 20px;
 }
 
-.widget-home1 button, .widget-home2 button, .widget-home3 button, .widget-home4 button {
-    display: none;
+.hoverbox {
+    position: relative;
+    width: 243px;
+    height: 117px;
 }
 
-/*.widget-home1:hover img, .widget-home2:hover img, .widget-home3:hover img, .widget-home4:hover img {
-    opacity: .8;
+.hoverbox img {
+    width: 243px;
+    height: 117px;
 }
-*/
-.widget-home1:hover button, .widget-home2:hover button, .widget-home3:hover button, .widget-home4:hover button {
-	display: block;
-	text-align:center;
-	margin: -150px auto 100px auto;
-	position:relative;
-	height:50px;
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -transition: .4s;
+}
+
+.hoverbox.on .overlay {
+    opacity: 1;
 }
 
 button,
