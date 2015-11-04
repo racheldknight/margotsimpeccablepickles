@@ -153,11 +153,13 @@ input[type="submit"]:focus {
 /*Social Media Icons*/
 /*FB*/
 .widget_synved_social_follow a.synved-social-button.synved-social-button-follow.synved-social-size-48.synved-social-resolution-single.synved-social-provider-facebook.nolightbox{
+	filter: hue-rotate(260deg) brightness(1.5);
 	-webkit-filter: hue-rotate(260deg) brightness(1.5);
 }
 
 /*Twitter*/
 .widget_synved_social_follow a.synved-social-button.synved-social-button-follow.synved-social-size-48.synved-social-resolution-single.synved-social-provider-twitter.nolightbox{
+	filter: hue-rotate(300deg);
 	-webkit-filter: hue-rotate(300deg);
 }
 
