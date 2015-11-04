@@ -267,6 +267,16 @@ input[type="submit"]:focus {
 
 }
 /**
+ * logo at min-width 955px
+ */
+
+@media screen and (min-width: 955px) {
+	.logo{
+		width:100%;
+	}
+
+}
+/**
  * 16.4 Desktop Small 955px
  */
 
@@ -309,10 +319,6 @@ input[type="submit"]:focus {
 	.site-header{
 		margin-top:8%;
         padding:0 10%;
-	}
-	
-	.logo{
-		width:100%;
 	}
 
 	#ltpannel{
