@@ -32,8 +32,8 @@ html {
 }
 
 h1, h2, h3, h4{
-	font-family: 'Delius Swash Caps', cursive;
-	color:#137f40;
+    font-family: 'Delius Swash Caps', cursive;
+    color:#137f40;
 }
 
 .logo {
@@ -73,30 +73,31 @@ h1, h2, h3, h4{
 }
 
 #ltpannel{
-	font-family: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif;
     margin-bottom: 3em;
     margin:0 7.6923% 40px 7.6923%;
-	}
+    }
 
 #rtpannel{
-	font-family: 'Abel', sans-serif;
-	margin:0 7.6923%;
+    font-family: 'Abel', sans-serif;
+    margin:0 7.6923%;
 }
 
 .widget-home1, .widget-home2, .widget-home3, .widget-home4{
-	text-align:center;
+    text-align:center;
     margin-bottom: 20px;
 }
 
 .hoverbox {
     position: relative;
-    width: 243px;
-    height: 117px;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
 }
 
 .hoverbox img {
-    width: 243px;
-    height: 117px;
+    width: 350px;
+    height: 350px;
 }
 
 .overlay {
@@ -143,7 +144,7 @@ input[type="submit"]:focus {
 }
 .hentry, .page-header, .page-content {
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
-	border: 1px solid #84cba3;
+    border: 1px solid #84cba3;
     }
 
 .hentry, .hentry.has-post-thumbnail {
@@ -151,99 +152,99 @@ input[type="submit"]:focus {
 }
 
 .post-thumbnail img{
-	border: 1px solid #DAD7D7;
+    border: 1px solid #DAD7D7;
 }
 
 
 .headerimg img.attachment-post-thumbnail.wp-post-image{
-	width:83%;
-	margin:0 8.333%;
+    width:83%;
+    margin:0 8.333%;
 }
 
 /*Social Media Icons*/
 /*FB*/
 .widget_synved_social_follow a.synved-social-button.synved-social-button-follow.synved-social-size-48.synved-social-resolution-single.synved-social-provider-facebook.nolightbox{
-	filter: hue-rotate(260deg) brightness(1.5);
-	-webkit-filter: hue-rotate(260deg) brightness(1.5);
+    filter: hue-rotate(260deg) brightness(1.5);
+    -webkit-filter: hue-rotate(260deg) brightness(1.5);
 }
 
 /*Twitter*/
 .widget_synved_social_follow a.synved-social-button.synved-social-button-follow.synved-social-size-48.synved-social-resolution-single.synved-social-provider-twitter.nolightbox{
-	filter: hue-rotate(300deg);
-	-webkit-filter: hue-rotate(300deg);
+    filter: hue-rotate(300deg);
+    -webkit-filter: hue-rotate(300deg);
 }
 
 /*Testimonial*/
 
 .quotemarkl{
-	color:#137f40;
-	font-family: 'Delius Swash Caps', cursive;
-	font-size:2em;
+    color:#137f40;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size:2em;
 }
 
 .quotemarkr{
-	color:#137f40;
-	font-family: 'Delius Swash Caps', cursive;
-	font-size:2em;
-	text-align:right;
-	float:right;
+    color:#137f40;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size:2em;
+    text-align:right;
+    float:right;
 }
 
 .quote{
-	color:#b5b5b5;
-	font-size:1.5em;
-	text-align:justify;
+    color:#b5b5b5;
+    font-size:1.5em;
+    text-align:justify;
 }
 
 /*Distribution Widget*/
 .widget-distribution{
-	background-color:#FFFFFF;
-	border: 1px solid #84cba3;
-	padding:5%;
+    background-color:#FFFFFF;
+    border: 1px solid #84cba3;
+    padding:5%;
 }
 
 /*Testimonial Widget*/
 .widget-testimonial .tggr-author-username, .widget-testimonial #tggr-media-item-container .tggr-actions a span, .widget-testimonial a [class^="icon-"], .widget-testimonial a [class*=" icon-"]{
-	color:#137f40;
+    color:#137f40;
 }
 
 .textwidget a{
-	border:none;
-	color:#137f40;
+    border:none;
+    color:#137f40;
 }
 .textwidget a:hover, .textwidget a:focus{
-	text-decoration:underline;
-	color:#DAD7D7;
+    text-decoration:underline;
+    color:#DAD7D7;
 }
 
 .widget-testimonial .tggr-timestamp{
-	color:#DAD7D7;
+    color:#DAD7D7;
 }
 
 
 .widget-testimonial .tggr-media-item{
-	border: 1px solid #84cba3;
+    border: 1px solid #84cba3;
 }
 .widget-testimonial .tggr-source-logo {
-	-webkit-filter: hue-rotate(300deg);
+    -webkit-filter: hue-rotate(300deg);
 }
 
 #tggr-media-item-container .tggr-media-item:nth-child(n+4) {
-	display: none;
+    display: none;
 }
 
 /*Contact Page*/
 .widget-contact1 {
-	background-color:#FFFFFF;
-	width:100%;
-	padding:5% 5% 5% 25%;
-	border: 1px solid #84cba3;
-	line-height:18px;
-	}
-	
+    background-color:#FFFFFF;
+    width:100%;
+    padding:5% 5% 5% 25%;
+    border: 1px solid #84cba3;
+    line-height:18px;
+    }
+    
 .widget-contact2 {
-	margin-top:50px;
-	border: 1px solid #84cba3;
+    margin-top:50px;
+    border: 1px solid #84cba3;
 }
 
 
@@ -251,21 +252,21 @@ input[type="submit"]:focus {
 /*404 Page*/
 
 .widget-error-page{
-	font-family: 'Abel', sans-serif;
-	font-size:1.3em;
-	line-height:2em;
+    font-family: 'Abel', sans-serif;
+    font-size:1.3em;
+    line-height:2em;
 }
 
-	
+    
 
 
 /*Products Widget*/
 .widget-product{
-	background-color:#FFFFFF;
-	padding:15px;
-	border: 1px solid #84cba3;
-	margin:25px auto 0 auto;
-	width:70%;
+    background-color:#FFFFFF;
+    padding:15px;
+    border: 1px solid #84cba3;
+    margin:25px auto 0 auto;
+    width:70%;
 }
 
 /**
@@ -273,9 +274,9 @@ input[type="submit"]:focus {
  */
 
 @media screen and (min-width: 516px) {
-	.logo{
-		width:40%;
-	}
+    .logo{
+        width:40%;
+    }
 
 }
 /**
@@ -283,9 +284,9 @@ input[type="submit"]:focus {
  */
 
 @media screen and (min-width: 955px) {
-	.logo{
-		width:100%;
-	}
+    .logo{
+        width:100%;
+    }
 
 }
 /**
@@ -325,28 +326,28 @@ input[type="submit"]:focus {
 
     .site-content {
         margin-left: 20%;
-		margin-right:5%;
+        margin-right:5%;
         width: 75%;
     }
-	.site-header{
-		margin-top:8%;
+    .site-header{
+        margin-top:8%;
         padding:0 10%;
-	}
+    }
 
-	#ltpannel{
-		float:left;
-		width:47.5%;
-		margin:0 0 0 2.5%;
-	}
+    #ltpannel{
+        float:left;
+        width:47.5%;
+        margin:0 0 0 2.5%;
+    }
 
-	#rtpannel{
-		float:right;
-		width:47.5%;
-		margin:0 0 0 2.5%;
-	}
-	.widget-home3, .widget-home4 {
-		text-align:left;
-	}
-	.widget-home3:hover button, .widget-home4:hover button{
-	margin: -150px auto 100px 120px;
-	}
+    #rtpannel{
+        float:right;
+        width:47.5%;
+        margin:0 0 0 2.5%;
+    }
+    .widget-home3, .widget-home4 {
+        text-align:left;
+    }
+    .widget-home3:hover button, .widget-home4:hover button{
+    margin: -150px auto 100px 120px;
+    }
