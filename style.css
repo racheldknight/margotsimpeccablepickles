@@ -284,8 +284,7 @@ input[type="submit"]:focus {
     background-color:#FFFFFF;
     padding:15px;
     border: 1px solid #84cba3;
-    margin:25px auto 0 auto;
-    width:70%;
+    margin:25px 7.6923% 0 7.6923%;
 }
 
 /**
@@ -363,6 +362,9 @@ input[type="submit"]:focus {
         float:right;
         width:47.5%;
         margin:0 0 0 2.5%;
+    }
+.widget-product{
+	margin:25px 0 0 2.5%;
     }
     .widget-home3, .widget-home4 {
         text-align:left;
