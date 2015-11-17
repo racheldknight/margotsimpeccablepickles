@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <link href='https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Abel' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Delius+Swash+Caps%7CAbel' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
     <![endif]-->
@@ -29,7 +29,7 @@
     <div id="sidebar" class="sidebar">
         <header id="masthead" class="site-header" role="banner">
             <div class="site-branding">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="http://mip.raymondmedina.com/wp-content/uploads/2015/10/MargotsLogo_onWhite.png" /></a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="http://mip.raymondmedina.com/wp-content/uploads/2015/10/MargotsLogo_onWhite.png" alt="Margot's Impeccable Pickles" /></a>
                 <?php
                     if ( is_front_page() && is_home() ) : ?>
                         <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
