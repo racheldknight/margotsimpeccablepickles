@@ -67,6 +67,9 @@ p{
 .menu-item a:hover {
     color: #137F40;
 }
+.current-menu-item a{
+    color: #84CBA3;
+}
 
 .widget_synved_social_follow {
     text-align: center;
