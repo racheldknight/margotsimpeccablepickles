@@ -4,7 +4,7 @@
  Description:  Twenty Fifteen Child Theme
  Author:       Pixel Media
  Author URI:   http://example.com
- Template:     twentyfifteenchild
+ Template:     twentyfifteen
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
@@ -34,6 +34,13 @@ html {
 h1, h2, h3, h4{
     font-family: 'Delius Swash Caps', cursive;
     color:#137f40;
+}
+
+p{
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-webkit-hyphens: none;
+	hyphens: none;
 }
 
 .logo {
@@ -240,7 +247,7 @@ input[type="submit"]:focus {
 .widget-contact1 {
     background-color:#FFFFFF;
     width:100%;
-    padding:5% 5% 5% 25%;
+    padding:5% 5% 5% 15%;
     border: 1px solid #84cba3;
     line-height:18px;
     }
