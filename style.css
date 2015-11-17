@@ -96,7 +96,12 @@ p{
 
 .widget-home1, .widget-home2, .widget-home3, .widget-home4{
     text-align:center;
-    margin-bottom: 20px;
+    margin: 20px 0;
+	float:left;
+}
+
+.entry-content.home-content{
+	padding-bottom:20px;
 }
 
 .hoverbox {
