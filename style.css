@@ -175,6 +175,16 @@ input[type="submit"]:focus {
     margin:0 8.333%;
 }
 
+.entry-content ul{
+	text-indent:1em;
+	list-style:none;
+}
+.entry-content ul li:before{
+	content:"•";
+	color:#137f40;
+	padding-right:.7em;
+}
+
 /*Social Media Icons*/
 /*FB*/
 .widget_synved_social_follow a.synved-social-button.synved-social-button-follow.synved-social-size-48.synved-social-resolution-single.synved-social-provider-facebook.nolightbox{
