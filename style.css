@@ -75,6 +75,10 @@ p{
     text-align: center;
 }
 
+.wc-shortcodes-social-icons li a:hover {
+    opacity: .8;
+}
+
 .copyright {
     font-family: 'Abel', sans-serif;
     color: #84cba3;
@@ -99,7 +103,7 @@ p{
 
 .widget-home1, .widget-home2, .widget-home3, .widget-home4{
     text-align:center;
-    margin: 20px 0;
+    margin: 20px 35px 0px 0px;
 	float:left;
 }
 
@@ -109,14 +113,14 @@ p{
 
 .hoverbox {
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
 }
 
 .hoverbox img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
 
 .overlay {
@@ -333,6 +337,9 @@ input[type="submit"]:focus {
  @media screen and (min-width: 46.25em) {
     .secondary-toggle, .secondary-toggle:before {
         width: 100px;
+    }
+    .homewidgets {
+        margin-left: 15%;
     }
 
 @media screen and (min-width: 59.6875em) {
