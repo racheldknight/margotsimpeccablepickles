@@ -27,11 +27,15 @@
 
 
 		<section class="homewidgets">
-		<?php dynamic_sidebar( 'home-widget1' ); ?>
-		<?php dynamic_sidebar( 'home-widget2' ); ?>
-        
-		<?php dynamic_sidebar( 'home-widget3' ); ?>
-		<?php dynamic_sidebar( 'home-widget4' ); ?>
+		<div id="ltpannel">
+			<?php dynamic_sidebar( 'home-widget1' ); ?>
+			<?php dynamic_sidebar( 'home-widget2' ); ?>
+		</div>
+
+		<div id="rtpannel">
+			<?php dynamic_sidebar( 'home-widget3' ); ?>
+			<?php dynamic_sidebar( 'home-widget4' ); ?>
+		</div>
         </section>
         
 <!-- END PAGE PHP -->

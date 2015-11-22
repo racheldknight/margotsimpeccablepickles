@@ -85,6 +85,9 @@ p{
     font-size: .9em;
     text-align: center;
 }
+a.scrollup-image {
+    opacity: .7;
+}
 
 .entry-content{
     font-family: 'Abel', sans-serif;
@@ -93,17 +96,17 @@ p{
 #ltpannel{
     font-family: 'Abel', sans-serif;
     margin-bottom: 3em;
-    margin:0 7.6923% 40px 7.6923%;
+    margin:0 7.6923% 40px 11.6923%;
     }
 
 #rtpannel{
     font-family: 'Abel', sans-serif;
-    margin:0 7.6923%;
+    margin:0 11.6923%;
 }
 
 .widget-home1, .widget-home2, .widget-home3, .widget-home4{
     text-align:center;
-    margin: 20px 35px 0px 0px;
+    margin: 20px 0px 0px 0px;
 	float:left;
 }
 
@@ -330,6 +333,15 @@ input[type="submit"]:focus {
     }
 
 }
+
+/* Homepage widgets */
+
+@media screen and (min-width: 1150px) {
+    .homewidgets {
+        max-width: 1250px;
+        margin-left: 9.4%;
+    }
+
 /**
  * 16.4 Desktop Small 955px
  */
@@ -337,9 +349,6 @@ input[type="submit"]:focus {
  @media screen and (min-width: 46.25em) {
     .secondary-toggle, .secondary-toggle:before {
         width: 100px;
-    }
-    .homewidgets {
-        margin-left: 15%;
     }
 
 @media screen and (min-width: 59.6875em) {
@@ -352,7 +361,6 @@ input[type="submit"]:focus {
         width: 20%;
         z-index: 0; /* Fixes flashing bug with scrolling on Safari */
     }
-
 
     .site {
         margin: 0 auto;
