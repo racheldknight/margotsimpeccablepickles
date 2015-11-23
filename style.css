@@ -107,7 +107,6 @@ a.scrollup-image {
 .widget-home1, .widget-home2, .widget-home3, .widget-home4{
     text-align:center;
     margin: 20px 0px 0px 0px;
-	float:left;
 }
 
 .entry-content.home-content{
@@ -173,7 +172,7 @@ input[type="submit"]:focus {
     border: 1px solid #84cba3;
     }
 
-#ltpannel .hentry, #ltpannel .page-header, #ltpannel.page-content {
+#ltpannel .hentry, #ltpannel .page-header, #ltpannel.page-content, .homewidgets #ltpannel {
     margin:0;
     }
 
@@ -339,7 +338,7 @@ input[type="submit"]:focus {
 @media screen and (min-width: 1150px) {
     .homewidgets {
         max-width: 1250px;
-        margin-left: 9.4%;
+        margin: 0 8.333%;
     }
 
 /**
