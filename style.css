@@ -330,6 +330,9 @@ input[type="submit"]:focus {
     .logo{
         width:100%;
     }
+	a#scrollUp{
+		display:none !important;
+	}
 
 }
 
