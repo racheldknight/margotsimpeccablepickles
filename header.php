@@ -29,7 +29,7 @@
     <div id="sidebar" class="sidebar">
         <header id="masthead" class="site-header" role="banner">
             <div class="site-branding">
-                <button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button>
+
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="http://mip.raymondmedina.com/wp-content/uploads/2015/10/MargotsLogo_onWhite.png" alt="Margot's Impeccable Pickles" /></a>
                 <?php
                     if ( is_front_page() && is_home() ) : ?>
@@ -43,7 +43,7 @@
                         <p class="site-description"><?php echo $description; ?></p>
                     <?php endif;
                 ?>
-
+                <button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button>
             </div><!-- .site-branding -->
         </header><!-- .site-header -->
 
