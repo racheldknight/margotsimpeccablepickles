@@ -256,8 +256,9 @@ input[type="submit"]:focus {
     color:#137f40;
 }
 .textwidget a:hover, .textwidget a:focus{
-    text-decoration:underline;
-    color:#DAD7D7;
+    color: #353434;
+    border-bottom: 1px solid #84cba3;
+	text-decoration:none;
 }
 
 .widget-testimonial .tggr-timestamp{
@@ -292,7 +293,6 @@ input[type="submit"]:focus {
     
 .widget-contact2 {
     margin-top:50px;
-    border: 1px solid #84cba3;
 }
 
 
