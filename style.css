@@ -320,6 +320,14 @@ input[type="submit"]:focus {
 .flxmap-container{
     border: 1px solid #84cba3;
 }
+.flxmap-container a{
+    color: #137f40;
+	border:none;
+}
+.flxmap-container a:hover{
+    color: #353434;
+    border-bottom: 1px solid #84cba3;
+}
 
 /**
  * logo at min-width 516px
