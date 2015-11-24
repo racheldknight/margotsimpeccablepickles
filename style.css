@@ -316,6 +316,11 @@ input[type="submit"]:focus {
     margin:25px 7.6923% 0 7.6923%;
 }
 
+/*Locations - Maps*/
+.flxmap-container{
+    border: 1px solid #84cba3;
+}
+
 /**
  * logo at min-width 516px
  */
