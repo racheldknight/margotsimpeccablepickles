@@ -97,16 +97,11 @@ a.scrollup-image {
     font-family: 'Abel', sans-serif;
 }
 
-#ltpannel{
+#ltpannel, #rtpannel{
     font-family: 'Abel', sans-serif;
-    margin-bottom: 3em;
-    margin:0 7.6923% 40px 11.6923%;
+    margin:0 8.333% 40px 8.333%;
     }
 
-#rtpannel{
-    font-family: 'Abel', sans-serif;
-    margin:0 11.6923%;
-}
 
 .widget-home1, .widget-home2, .widget-home3, .widget-home4{
     text-align:center;
@@ -313,7 +308,7 @@ input[type="submit"]:focus {
     background-color:#FFFFFF;
     padding:15px;
     border: 1px solid #84cba3;
-    margin:25px 7.6923% 0 7.6923%;
+    margin:25px 8.333% 0px 8.333%;
 }
 
 /*Locations - Maps*/
