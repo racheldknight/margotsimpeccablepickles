@@ -8,12 +8,7 @@ get_header(); ?>
 		// Start the loop.
 		while ( have_posts() ) : the_post(); ?>
 
-		<div class="headerimg">
-		<?php
-		// Post thumbnail.
-		twentyfifteen_post_thumbnail();
-		?>
-		</div>
+
 		<div id="ltpannel">
 			<?php
 			// Include the page content template.
@@ -31,10 +26,13 @@ get_header(); ?>
         </div>
         <div id="rtpannel">
         <?php dynamic_sidebar( 'contact-widget1' ); ?>
-        <?php dynamic_sidebar( 'contact-widget2' ); ?>
+       <!-- <?php dynamic_sidebar( 'contact-widget2' ); ?> -->
+
+		<?php
+		// Post thumbnail.
+		twentyfifteen_post_thumbnail();
+		?>
         </div>
-
-
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 

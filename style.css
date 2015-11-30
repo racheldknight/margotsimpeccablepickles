@@ -284,6 +284,7 @@ input[type="submit"]:focus {
     padding:5% 5% 5% 15%;
     border: 1px solid #84cba3;
     line-height:18px;
+    margin-bottom:50px;
     }
     
 .widget-contact2 {
