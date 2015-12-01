@@ -5,10 +5,12 @@
         <main id="main" class="site-main" role="main">
 <!-- BEGIN PAGE PHP -->
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('solocont');?>>
 
 	<div class="entry-content home-content">
+		<div class="">
 		<?php the_content(); ?>
+		</div>
 		<?php
 			wp_link_pages( array(
 				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfifteen' ) . '</span>',

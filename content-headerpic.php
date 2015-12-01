@@ -15,7 +15,8 @@
 		twentyfifteen_post_thumbnail();
 	?>
 	</div>
-<article <?php post_class(); ?>>
+    
+<article <?php post_class(); ?> class="solocont">
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
@@ -33,7 +34,7 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
+   
 	<?php edit_post_link( __( 'Edit', 'twentyfifteen' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer><!-- .entry-footer -->' ); ?>
 
 </article><!-- #post-## -->
